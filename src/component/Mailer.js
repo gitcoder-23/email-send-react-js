@@ -10,8 +10,8 @@ const Mailer = () => {
     const emailField = document.getElementById('email');
     const messageField = document.getElementById('message');
     if (
-      userNameField.value == '' &&
-      emailField.value == '' &&
+      userNameField.value == '' ||
+      emailField.value == '' ||
       messageField.value == ''
     ) {
       setErrorState(true);
