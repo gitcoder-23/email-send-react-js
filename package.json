@@ -1,6 +1,7 @@
 {
   "name": "emailjs",
   "you-tut": "https://youtu.be/t1_kviNJsy4",
+  "developer": "Prabhat",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
